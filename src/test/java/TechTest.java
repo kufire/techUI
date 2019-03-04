@@ -23,7 +23,7 @@ public class TechTest {
         webdriverContainer.clearBrowserCache();
 //
         Configuration.browser="chrome";
-        Configuration.remote = "http://192.168.146.135:5001/wd/hub";
+        Configuration.remote = "http://192.168.146.136:5001/wd/hub";
 
         String baseUrl = "http://jenkins.testing-studio.com:8999/";
 
